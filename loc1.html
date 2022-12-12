@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Kaltaraprov - Air Terjun Rian</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <style>
+    #content table
+    { text-align: justify;
+      margin: 10px 0 10px 0;
+      line-height: 2em;}
+    #content tr .td1
+    { padding: 0 30px 0 0;}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.php">Kaltara<span class="logo_colour">prov</span></a></h1>
+          <h2>Kalimantan Utara</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected" id="edge"><a href="index.php" style="border-radius: 13px 0 0 13px;">Home</a></li>
+          <li><a href="hargatiket.php">Harga Tiket</a></li>
+          <li><a href="pesantiket.php">Pesan Tiket</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Tentang Kaltara</h3>
+        <p>Kalimantan Utara (disingkat Kaltara) adalah sebuah provinsi di Indonesia yang terletak di bagian utara Pulau Kalimantan. Provinsi ini berbatasan langsung dengan negara tetangga Malaysia, yaitu Negara Bagian Sabah dan Sarawak.</p>
+        <p>Pusat pemerintahan Kalimantan Utara saat ini berada di kecamatan Tanjung Selor, bersama dengan pusat pemerintahan Kabupaten Bulungan.</p>
+        <p>Wilayah Kalimantan Utara tergabung dengan Kalimantan Timur, sebelum akhirnya membentuk provinsi baru pada 25 Oktober 2012, dan menjadi provinsi termuda di Indonesia.</p>
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Air Terjun Rian</h1>
+        <img src="style/airterjunriyan.png" width="240" height="148" style="float: left; padding-right: 10px;">
+        <table>
+          <tr>
+            <td class="td1">Lokasi:</td>
+            <td class="td2">Sesayap, Kabupaten Tana Tidung, Kalimantan Utara</td>
+          </tr>
+        </table>
+        <p style="white-space: pre-line;">Air Terjun memiliki tinggi sekitar 90 meter sampai ke puncaknya dan jatuh melalui bebatuan terjal gunung rian yang terdiri dari 7 tingkatan, namun hanya tingkat 1 dan 2 saja yang sering dikunjungi oleh wisatawan, karena untuk mencapai tingkatan lainnya diperlukan tenaga ekstra.
+Terletak di kaki Gunung Rian, Kabupaten Tana Tidung menjadikan air terjun ini bernama Air Terjun Rian. Air terjun ini memberikan suguhan alam yang begitu indah, dengan air jernih yang mengalir memberikan nuansa kesegaran yang luar biasa.
+Selain pemandangan alamnya yang indah, di Air terjun Riyan juga dapat dijumpai salah satu flora khas Kalimantan yaitu pohon Ulin (aeusideroxylon zwageri). Pohon Ulin merupakan vegetasi hutan tropis yang mempunyai nilai jual yang sangat tinggi karena kualitas kayunya yang memang berkualitas super.</p>
+        <!-- 
+          UPDATE `tempat_wisata_210025` SET `deskripsi_210025` = 'Air Terjun memiliki tinggi sekitar 90 meter sampai ke puncaknya dan jatuh melalui bebatuan terjal gunung rian yang terdiri dari 7 tingkatan, namun hanya tingkat 1 dan 2 saja yang sering dikunjungi oleh wisatawan, karena untuk mencapai tingkatan lainnya diperlukan tenaga ekstra.\r\nTerletak di kaki Gunung Rian, Kabupaten Tana Tidung menjadikan air terjun ini bernama Air Terjun Rian. Air terjun ini memberikan suguhan alam yang begitu indah, dengan air jernih yang mengalir memberikan nuansa kesegaran yang luar biasa.\r\nSelain pemandangan alamnya yang indah, di Air terjun Rian juga dapat dijumpai salah satu flora khas Kalimantan yaitu pohon Ulin (aeusideroxylon zwageri). Pohon Ulin merupakan vegetasi hutan tropis yang mempunyai nilai jual yang sangat tinggi karena kualitas kayunya yang memang berkualitas super.' WHERE `tempat_wisata_210025`.`id_wisata_210025` = 1;  
+         -->
+        <a href="pesantiket.php"><button onclick="return confirm('Yakin?')">Pesan Tiket</button></a>
+        <a href="index.php"><button>Kembali</button></a>
+      </div>
+    </div>
+    <div id="footer">
+      <a href="index.php">Home</a> | <a href="contact.html">Kontak</a> | <a href="https://kaltaraprov.go.id" target="_blank">Website Resmi</a>
+    </div>
+  </div>
+  
+  <script src="script1.js"></script>
+</body>
+</html>
